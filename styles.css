@@ -1,6 +1,6 @@
 html {
    --s-color: white;
-   --p-color: #eff6f9;
+   --p-color: #eef2fb;
    --t-color: #309be4;
    box-sizing: border-box;
    font-size: 16px;
@@ -18,10 +18,10 @@ body {
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
-   background-color: var(--s-color);
+   background-color: var(--p-color);
    width: 300px;
    box-shadow: 4px 4px 8px 0 #c3c3c3;
-   border: solid 1px var(--p-color);
+   border: solid 1px var(--s-color);
 }
 
 img {
@@ -41,7 +41,7 @@ h3 {
    padding: 0 15px;
    font-family: 'Raleway', serif;
 
-   border: solid 1px var(--p-color);
+   border: solid 1px var(--s-color);
 }
 
 .text-container p:first-child {
